@@ -1,12 +1,13 @@
 .holder {
-    width: 90%;
     height: 15rem;
     background-color: black;
-    margin-top: 5px;
+    margin: 15px;
+    width: auto;
 }
 
 #app {
-    align-items: center;
+    justify-content: center;
+    width: auto;
 }
 
 /* 
