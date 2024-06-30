@@ -1,23 +1,42 @@
 .holder {
+    justify-content: center;
     height: 15rem;
     background-color: black;
     margin: 15px;
-    width: auto;
+    width: 80%;
 }
 
 #app {
     justify-content: center;
     width: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-/* 
+.clockIcon {
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+    background-color:rgba(41, 36, 36, 0.724);
+    margin:5px;
+    border:2px solid rgba(78, 72, 72, 0.724);
+    border-radius:10px;
+}
 
-*/
+.numberCounter {
+    background:rgba(41, 36, 36, 0.724);
+    padding:0;
+    margin:5px;
+    border:2px solid rgba(78, 72, 72, 0.724);
+    border-radius:10px;
+    color: white;
+    text-align: center;
+    font-size: 130px;
+}
+
+.fa-clock {
+    container: fluid;
+    justify-content: center;
+    font-size: 7rem;
+    margin-top: 40%;
+    color: white;
+    justify-self: center;
+}
