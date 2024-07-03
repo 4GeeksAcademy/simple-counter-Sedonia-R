@@ -40,3 +40,8 @@
     color: white;
     justify-self: center;
 }
+
+.buttons {
+    display:inline-flex;
+    align-self: center;
+}
